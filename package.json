@@ -1,0 +1,23 @@
+{
+  "name": "docs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon --ext md,vue --watch .vuepress --watch . --exec vuepress dev docs",
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@vuepress/plugin-blog": "^1.9.2",
+    "vuepress-plugin-autobar": "github:boboidream/vuepress-bar",
+    "watchpack": "^1.6.1"
+  },
+  "dependencies": {
+    "vuepress-theme-ktquez": "^0.2.18"
+  }
+}
