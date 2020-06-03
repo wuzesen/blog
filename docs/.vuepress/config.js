@@ -73,7 +73,7 @@ module.exports = {
         extractHeaders: [ 'h2', 'h3', 'h4' ]
       },
       serviceWorker: true,
-      base: '/',
+      base: '/blog',
   }
 
   function genSidebarConfig(title) {
