@@ -18,6 +18,7 @@
     "watchpack": "^1.6.1"
   },
   "dependencies": {
-    "vuepress-theme-ktquez": "^0.2.18"
+    "vuepress-theme-ktquez": "^0.2.18",
+    "vuepress": "^1.5.0"
   }
 }
