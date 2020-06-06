@@ -4,8 +4,9 @@ node_js:
 
 cache: npm
 
+before_install:
+  - npm install
 script: 
--   npm i
 -   npm run docs:build
 
 deploy:
@@ -13,6 +14,6 @@ deploy:
  skip_cleanup: true
  local_dir: docs/.vuepress/dist
  github_token: $GH_TOKEN
- local_dir: dist
+ keep-history: true
  on:
    branch: master
